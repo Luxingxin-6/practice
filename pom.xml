@@ -17,6 +17,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>multithread-transaction</module>
+        <module>springboot-docker-compose</module>
     </modules>
 
     <properties>
@@ -62,6 +63,10 @@
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <version>42.6.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
         <!--API文档-->
         <dependency>
